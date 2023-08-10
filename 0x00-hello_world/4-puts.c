@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- *This project prints a message
- *Return: 0 
+ * main - This project prints a message
+ * Return: 0 (means success)
  */
 int main(void)
 {

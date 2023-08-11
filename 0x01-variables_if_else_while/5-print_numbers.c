@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	itn i;
+	int i;
 
 	for (i = 0; i < 10; i++)
 	{
 		printf("%d", i);
 	}
-	printf("\n"0;
+	printf("\n"0);
 	return (0);
 }

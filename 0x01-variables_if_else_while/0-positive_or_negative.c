@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/* program to determine whether the number is positive or negative */
+/**
+ * main - program to determine whether the number is positive or negative
+ * Return: 0
+ */
 int main(void)
 {
 	int n;
@@ -11,17 +14,17 @@ int main(void)
 		if (n > 0)
 			{
 			printf("%d", n);
-			printf("\tis positive\n");
+			printf(" is positive\n");
 			}
 		else if (n == 0)
 			{
 			printf("%d", n);
-			printf("\tis zero\n");
+			printf(" is zero\n");
 			}
 		else if (n < 0)
 			{
 			printf("%d", n);
-			printf("\tis negative\n");
+			printf(" is negative\n");
 			}
 return (0);
 }

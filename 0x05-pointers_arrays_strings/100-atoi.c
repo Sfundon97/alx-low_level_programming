@@ -27,5 +27,6 @@ int _atoi(char *s)
 		}
 		i++;
 	}
+	n *= min;
 	return (n);
 }
